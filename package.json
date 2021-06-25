@@ -1,0 +1,38 @@
+{
+  "name": "space-resection",
+  "version": "0.0.1",
+  "description": "PnP",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/martinpucala/vmck-viewer.git"
+  },
+  "keywords": [
+    "VMCK",
+    "DTBQ",
+    "Dowry Towns",
+    "model viewer",
+  ],
+  "author": "Martin Púčala <martin.pucala@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/martinpucala/vmck-viewer/issues"
+  },
+  "homepage": "https://github.com/martinpucala/vmck-viewer#readme",
+  "dependencies": {
+    "svd-js": "^1.1.1",
+    "three": "^0.129.0",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
